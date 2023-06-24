@@ -1,0 +1,74 @@
+.all-spells-title {
+  margin-left: 20px;
+}
+
+.spell-page-container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.spell-page-container-gryffindor {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  background: linear-gradient(#791b18, #ffffff);
+}
+
+.spell-page-container-ravenclaw {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  background: linear-gradient(#1a3771, #ffffff);
+}
+
+.spell-page-container-hufflepuff {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  background: linear-gradient(#ae833e, #ffffff);
+}
+
+.spell-page-container-slytherin {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  background: linear-gradient(#0a4324, #ffffff);
+}
+
+.all-spells-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  overflow: scroll;
+  height: 600px;
+}
+
+.spell-container {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  max-height: 300px;
+  border: 1px solid black;
+  text-align: center;
+  margin: 5px;
+  border-radius: 20px;
+  padding: 10px;
+  overflow: scroll;
+}
+
+.search-container {
+  margin: 0 0 20px 20px;
+}
+
+.search-input {
+  max-width: 300px;
+  margin-left: 10px;
+}
+
+

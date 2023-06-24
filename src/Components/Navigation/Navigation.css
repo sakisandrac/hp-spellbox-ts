@@ -1,0 +1,36 @@
+.logo {
+  width: 80px;
+}
+
+nav {
+  background-color: #404042;
+  display: flex;
+  align-items: center;
+}
+
+.nav-link {
+  color: white;
+  text-decoration: none;
+}
+
+.nav-link-container {
+  padding-left: 10px;
+  display: flex;
+  width: 25%;
+  justify-content: space-between;
+}
+
+a:visited {
+  color: white;
+  text-decoration: none;
+}
+
+@media (max-width: 600px) {
+  .nav-link-container {
+    padding-left: 10px;
+    display: flex;
+    width: 60%;
+    justify-content: space-between;
+  }
+  
+}
